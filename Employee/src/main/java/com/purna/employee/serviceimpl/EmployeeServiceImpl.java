@@ -23,7 +23,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 //		employeeModel.setId(1);
 //		employeeModel.setName("Purush");
 //		employeeModel.setDesignation("Nothing");
-		
+		System.out.println("Logger");
 		return emprepo.findAll();
 	}
 
